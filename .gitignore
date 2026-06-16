@@ -1,0 +1,20 @@
+# ========================
+# SEGRETI E CONFIGURAZIONI
+# ========================
+.env
+*.pem
+
+# ========================
+# AMBIENTI VIRTUALI
+# ========================
+.venv/
+venv/
+env/
+
+# ========================
+# CACHE PYTHON & TEST
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
